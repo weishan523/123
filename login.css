@@ -47,7 +47,7 @@ section .color:nth-child(3){
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    filter: hue-rotate(calc(var(--x) * 80deg));
+    filter: hue-rotate(calc(var(--x) * -10deg));
     animation: animate 10s linear infinite;
     animation-delay: calc(var(--x) * 0.5s);
 }
@@ -104,7 +104,7 @@ section .color:nth-child(3){
     position: relative;
     width: 400px;
     min-height: 400px;
-    background: rgba(255, 255, 255, 0.658);
+    background: rgba(255, 255, 255, 0.322);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,4 +165,24 @@ section .color:nth-child(3){
 }  
 .form-group input::placeholder{
     color: rgba(0, 0, 0, 0.6);
+}
+
+.form-group button{
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 550;
+    background: #7abef08c;  
+    border: none; 
+    padding: 10px 20px; 
+    color: rgb(0, 0, 0); 
+    outline: none; 
+} 
+.form-group button:hover{
+    background: rgba(190, 67, 238, 0.527); 
+    color: #000; 
+}
+.form-group button:active { 
+    background: rgba(55, 58, 245, 0.527); 
+    color: rgb(0, 0, 0); 
+ 
 }
