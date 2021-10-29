@@ -410,7 +410,7 @@ img {
       width: 100%; }
       #breakingNewsTicker.ticker ul li a {
         color: #000000;
-        font-size: 14px;
+        font-size: 36px;
         text-transform: uppercase; }
         #breakingNewsTicker.ticker ul li a:hover {
           color: #30336b; }
