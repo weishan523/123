@@ -1,7 +1,7 @@
 body{
     font-size: 15px;
     line-height: 1.52;
-    color: #717f86;
+    /* color: #717f86; */ /* 顏色 */
     font-family: 'Open',sans-serif;
     font-weight: 400;
     overflow-x: hidden;
@@ -73,6 +73,7 @@ body{
 }
 
 .menu-restaurant .menu-price {
+    color: #717f86; /* 價格顏色 */
     font-weight: 600;
     position: absolute;
     right: 0;
@@ -81,7 +82,7 @@ body{
 .menu-restaurant .menu-subtitle{
     display: block;
     float: left;
-    color: #B1B1B1;
+    color: #b1b1b1;
     font-size: 1.2rem;
 }
 .menu-restaurant span.clearfix{
