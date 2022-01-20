@@ -38,6 +38,7 @@ body{
 
 /*選單顏色 位置*/
 .sidebar ul li a{
+    font-size: 16px;
     color:#ffffff;
     padding:0 30px;
 }
@@ -49,6 +50,16 @@ body{
     transition: 0.4s;
 }
 
+.path1{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.path1 a{
+    font-size: 16px;
+}
+
+
 /*內文位置*/
 .main1{
     margin-left: 200px;
@@ -56,6 +67,26 @@ body{
 }
 
 /*內文標題距離*/
-.main1 h2{
-    margin-top: 20px;
+.main1 h4 a{
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
+
+.main1 h4 a:hover{
+    color: #30336b;
+}
+
+/* .main1 .post-meta p {
+    margin-bottom: 0; 
+}
+
+.main1 .post-meta p a {
+    font-size: 11px;
+    color: #878787;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase; 
+}
+.main1 .post-meta p a:hover, .main1 .post-meta p a:focus {
+    color: #000000; } */
