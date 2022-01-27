@@ -7,7 +7,19 @@
 body{
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
 }
+
+.header-area .res-co-pic {
+    position: fixed;
+    height: 100px; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
 
 /*大小顏色*/
 .sidebar{
@@ -15,7 +27,7 @@ body{
     background: #FFB03B;
     width: 200px;
     height: 100%;
-    top: 165px;
+    top: 100px;
     left: 0;
     z-index: 1;
 }
@@ -51,7 +63,8 @@ body{
 }
 
 .path1{
-    margin-left: 200px;
+    margin-left: 220px;
+    margin-top: 110px;
     padding: 5px;
 }
 
@@ -62,7 +75,7 @@ body{
 
 /*內文位置*/
 .main1{
-    margin-left: 200px;
+    margin-left: 220px;
     padding: 5px;
 }
 
