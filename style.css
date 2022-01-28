@@ -34,7 +34,7 @@
 
 body {
   font-family: "helveticaneuemedium";
-  background-color: #ffffff; }
+  background-color: #F0F0F0; } /*背景顏色*/
 
 h1,
 h2,
@@ -198,6 +198,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
+
 .bg-transparent {
   background-color: transparent; }
 
@@ -239,6 +240,9 @@ img {
 
 .section-padding-100-0 {
   padding: 100px 0 0; }
+
+  .section-padding-50-0-0 {
+    padding: 50px 0 0; }
 
 .section-padding-0-100 {
   padding: 0 0 100px; }
@@ -289,6 +293,7 @@ img {
 
 .original-btn {
   position: relative;
+  background-color: #ffffff;
   z-index: 1;
   padding: 0 30px;
   min-width: 175px;
@@ -317,7 +322,7 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   .header-area .top-header {
-    height: 65px; }
+    height: 75px; }        /*原65*/
     @media only screen and (max-width: 767px) {
       .header-area .top-header {
         height: 90px; } }
@@ -325,6 +330,8 @@ img {
       .header-area .top-header {
         height: 70px; } }
     .header-area .top-header .top-social-area {
+      padding-right: 20px;
+      padding-top: 20px;
       text-align: right; }
       @media only screen and (max-width: 767px) {
         .header-area .top-header .top-social-area {
@@ -353,7 +360,7 @@ img {
       .header-area .logo-area {
         height: 100px; } }
   .header-area .original-nav-area {
-    height: 100px; }
+    height: 60px; }   /*原100*/
     @media only screen and (max-width: 767px) {
       .header-area .original-nav-area {
         height: 70px; } }
@@ -372,34 +379,36 @@ img {
         background-color: #30336b; }*/
     .header-area .original-nav-area .classynav ul li a {
       text-transform: uppercase;
-      color: #4f4d4d; }
+      color: #000000; }  /* nav字體顏色*/
       .header-area .original-nav-area .classynav ul li a:focus, .header-area .original-nav-area .classynav ul li a:hover {
         color: #000000; }
     .header-area .original-nav-area .classy-nav-container {
-      background-color: transparent; }
-    .header-area .original-nav-area .classy-navbar {
-      height: 100px;
+      background-color: 		#C4E1FF; }   /* 上方選單列nav背景顏色 */
+    .header-area .original-nav-area .classy-navbar { 
+      height: 50px;       /*原100*/
       padding: 0; }
       @media only screen and (max-width: 767px) {
         .header-area .original-nav-area .classy-navbar {
-          height: 70px; } }
+          height: 50px; } }    /*原70*/
   .header-area .is-sticky .original-nav-area {
     background-color: #ffffff;
     margin-top: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 50px;    /*原70*/
     top: 0;
     left: 0;
     right: 0;
     z-index: 900; }
     .header-area .is-sticky .original-nav-area .classy-navbar {
-      height: 70px; }
+      height: 50px; }    /*原70*/
 
 #breakingNewsTicker.ticker {
   width: 100%;
   text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;      /* "高科大 第一校區 女生宿舍" 置中位置*/
   position: relative;
   overflow: hidden; }
   #breakingNewsTicker.ticker ul {
@@ -410,7 +419,7 @@ img {
       width: 100%; }
       #breakingNewsTicker.ticker ul li a {
         color: #000000;
-        font-size: 36px;
+        font-size: 42px;
         text-transform: uppercase; }
         #breakingNewsTicker.ticker ul li a:hover {
           color: #30336b; }
@@ -539,6 +548,21 @@ img {
     left: auto;
     right: 7%; }
 
+  .activity-bg-color{
+
+    margin-bottom: 20px;
+    background-color: 	#DFFFDF;
+    }
+  .blog-bg-color{
+   /* background-color: 	#F1E1FF;*/
+  }
+  .publicf-bg-color{
+    background-color:#D8D8EB;
+  }
+  .repair-bg-color{
+    background-color:	#E2C2DE;
+  }
+
 /* Blog Content Area CSS */
 .single-blog-area {
   position: relative;
@@ -553,7 +577,7 @@ img {
       z-index: 10;
       left: 15px;
       top: 15px;
-      border: 1px solid #787878;
+      border: 1px solid #444141;
       background-color: #ffffff;
       padding: 20px 8px;
       text-align: center; }
@@ -567,9 +591,12 @@ img {
           display: block;
           font-family: "Open Sans", sans-serif;
           font-size: 11px;
-          color: #878787; }
+          color: #000000; }
+  .single-blog-area .single-blog-content{
+   /* background-color: #BE77FF;     可改公佈欄顏色*/
+  }
   .single-blog-area .single-blog-content .line {
-    background-color: #c8c8c8;
+    background-color: #575757;   
     width: 26px;
     height: 2px;
     margin-bottom: 20px; }
@@ -874,8 +901,9 @@ img {
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif; }
 
-.single-blog-wrapper .single-blog-area .single-blog-content p {
+.single-blog-wrapper .single-blog-area .single-blog-content p { 
   font-family: "Open Sans", sans-serif; }
+
 
 .comment_area {
   border-bottom: 1px solid #c5c5c5;
@@ -1300,6 +1328,7 @@ textarea:focus ~ .highlight {
 .footer-area {
   padding: 60px 0;
   position: relative;
+  background-color: #E6CAFF;
   z-index: 1; }
   .footer-area .footer-social-area a {
     display: inline-block;
@@ -1308,7 +1337,7 @@ textarea:focus ~ .highlight {
     font-size: 13px; }
   .footer-area .classynav ul li a {
     text-transform: uppercase;
-    color: #4f4d4d; }
+    color: #000000; }
     .footer-area .classynav ul li a:focus, .footer-area .classynav ul li a:hover {
       color: #000000; }
 
