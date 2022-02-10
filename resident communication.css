@@ -48,6 +48,11 @@ body{
     margin: 25px 0;
 }
 
+.sidebar span {
+  width:200px;
+  height:70px;
+}
+
 /*選單顏色 位置*/
 .sidebar ul li a{
     font-size: 16px;
@@ -56,8 +61,13 @@ body{
 }
 
 /*游標移過的顏色*/
+
+.sidebar .nav:hover{
+  background:#006aa6;
+}
+
 .sidebar ul li a:hover{
-    color: #3397cf;
+    color: #41b9ff;
     margin-left:20px;
     transition: 0.4s;
 }
@@ -105,7 +115,7 @@ body{
     color: #000000; } */
 
 
-/* Blog Content Area CSS */
+/* List */
 
 .blog-wrapper1{
     margin-left: 220px;
@@ -167,4 +177,120 @@ body{
         letter-spacing: 3px; }
     .single-blog-area1.blog-style-2 .single-blog-content1 > p {
       margin-bottom: 30px; }
+
+
+/* 留言回覆 */
+  @media only screen and (max-width: 767px) {
+    .comment-content1 {
+      padding: 20px 15px; } }
+  .comment-content1 .comment-author1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 79px;
+    flex: 0 0 79px;
+    min-width: 79px;
+    margin-right: 55px;
+    border-radius: 50%; }
+    @media only screen and (max-width: 767px) {
+      .comment-content1 .comment-author1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60px;
+        flex: 0 0 60px;
+        min-width: 60px;
+        margin-right: 15px; } }
+    .comment-content1 .comment-author1 img {
+      border-radius: 50%; }
+  .comment-content1 .comment-meta1 {
+    margin-bottom: 30px; }
+    .comment-content1 .comment-meta1 .post-date1 {
+      color: #a1a1a1;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 0;
+      display: block; }
+    .comment-content1 .comment-meta1 .post-author1 {
+      margin-bottom: 15px;
+      display: block; }
+    .comment-content1 .comment-meta1 p {
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 2; }
+    .comment-content1 .comment-meta1 .comment-reply1 {
+      font-size: 11px;
+      color: #000000;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase; }
+.single_comment_area1 {
+  margin-bottom: 30px; }
+.single_comment_area1:last-of-type {
+  margin-bottom: 0; }
+  .comment_area .children .single_comment_area1 {
+    margin-left: 50px;
+    margin-top: 30px; }
+    @media only screen and (max-width: 767px) {
+      .comment_area .children .single_comment_area1 {
+        margin-left: 15px; } }
+
+.single_comment_area1 .children .single_comment_area1 .comment-meta1 {
+  margin-bottom: 0; }
   
+/*回覆固定*/
+.comment-content1{
+  position: fixed;
+  background:#ffffff;
+  height: 100px; 
+  width: 88%;
+  bottom: 0;
+  left: 220px;
+  right: 0px;
+  padding: 5px;
+  z-index: 1;
+  }
+
+  .sidebar-widget-area1 {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px; }
+    .sidebar-widget-area1 .search-form1 {
+      position: relative;
+      z-index: 1; }
+      .sidebar-widget-area1 .search-form1 input[type="text"] {
+        width: 300%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid #bbbec1;
+        font-size: 14px;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        color: #5b5b5c;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms; }
+        .sidebar-widget-area1 .search-form1 input[type="text"]:focus {
+          border-bottom: 1px solid #bbbec1; }
+      .sidebar-widget-area1 .search-form1 input[type="submit"] {
+        display: none; }
+
+
+.original-btn1 {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 1;
+  padding: 0 30px;
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #dcdcdc;
+  font-size: 14px;
+  border-radius: 0;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  color: #000000; }
+  .original-btn1:hover, .original-btn1:focus {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    border-color: #00324e;
+    background-color: #00324e; }
