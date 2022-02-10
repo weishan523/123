@@ -556,12 +556,101 @@ img {
   .blog-bg-color{
    /* background-color: 	#F1E1FF;*/
   }
+  .blog-color-1{
+    width: 100%;
+    height: 36px;
+    background-color:#E6E6F2;
+  }
+  .blog-color-2{
+    background-color: #C4E1E1;
+  }
+ 
   .publicf-bg-color{
     background-color:#D8D8EB;
+  }
+  .publicf-2px-text-collor{
+    width: 70px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#034c96;
+  }
+  .publicf-4px-text-collor{
+    width: 140px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#034c96;
+  }
+  .opinion-bg-color{
+    background-color:	#C4E1E1;
+  }
+  .opinion-2px-text-collor{
+    width: 70px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#31318f;
+  }
+  .opinion-4px-text-collor{
+    width: 140px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#31318f;
+  }
+  .opinion-4px-textarea-collor{
+    width: 96.5%;
+    height: 36px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#31318f;
   }
   .repair-bg-color{
     background-color:	#E2C2DE;
   }
+  .repair-2px-text-collor{
+    width: 70px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:		#5151A2;
+  }
+  .repair-4px-text-collor{
+    width: 140px;
+    height: 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:		#5151A2;
+  }
+  .repair-4px-textarea-collor{
+    width: 96.5%;
+    height: 36px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:		#5151A2;
+  }
+
 
 /* Blog Content Area CSS */
 .single-blog-area {
