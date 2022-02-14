@@ -896,6 +896,12 @@ img {
         .sidebar-widget-area .tags a {
           padding: 0 15px; } }
 
+.tittle-text-size{
+  font-size: 30px;
+  color: #000000;
+  
+}
+
 .instagram-feed-area {
   position: relative;
   z-index: 1;
