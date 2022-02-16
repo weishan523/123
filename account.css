@@ -1,24 +1,12 @@
 *:focus{
     outline: none;
 }
-.acc{
+.container{
+    margin-bottom: 50px;
+}
+.container .row{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.box{
-    box-sizing: border-box;
-    width: 600px;
-    height: 600px;
-    border: 2px solid #FFB03B;
-    box-shadow: -3px -3px 7px #ffffff73,
-                3px 3px 5px rgba(94,104,121,0.288);
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left:400px;
-    overflow: hidden;
-    text-align:center;
 }
 img{
     box-sizing: border-box;
@@ -36,6 +24,7 @@ input[type="text"],input[type="email"]{
     box-sizing: border-box;
     background: none;
     color: #FFB03B;
+    margin-top: 25px;
     margin-bottom: 30px;
     margin-left:200px;
     padding: 4px;
@@ -48,9 +37,7 @@ input[type="text"],input[type="email"]{
     font-size: 15px;
     transition: 0.2s ease;
 }
-input[type="text"]{
-    margin-top: 25px;
-}
+
 input[type="text"]:focus,input[type="email"]:focus{
     border-bottom: 2px solid #FFB03B;
     border-bottom-right-radius: 20px;
@@ -63,8 +50,8 @@ button{
     color: #ff9900;
     height: 30px;
     width: 100px;
+    font-size: 18px;
     border-radius: 5px;
-    margin: 0px;
     transition: all 0.3s;
 }
 button:hover{
@@ -79,7 +66,7 @@ label{
     background-color: white;
     color: white;
     border: 1px solid #FFB03B;
-    padding: 2px 15px;
+    padding: 5px 15px;
     border-radius: 5px;
     transition: all 0.3s;
 }
@@ -88,11 +75,21 @@ label:hover{
     color: black;
 }
 p{
-    width: 70px;
+    margin-top: 25px;
+    margin-left:10%;
+    width: 100px;
     height: 36px;
-    font-size: 14px;
-    border-radius: 10px;
+    font-size: 18px;
+    border-radius: 5px;
     line-height:36px;
     text-align: center;
+    color: white;
     background-color:#FFB03B;
+    font-family: 'Roboto',sans-serif;
+}
+.a{
+    background-color: #FFB03B;
+}
+.b{
+    background-color: #ffffff;
 }

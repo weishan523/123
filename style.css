@@ -240,12 +240,16 @@ img {
 
 .section-padding-100-0 {
   padding: 100px 0 0; }
+  .section-padding-50-0 {
+    padding: 50px 0 0; }
 
   .section-padding-50-0-0 {
     padding: 50px 0 0; }
 
 .section-padding-0-100 {
   padding: 0 0 100px; }
+.section-padding-0-50 {
+    padding: 0 0 50px; }
 
 .section-padding-100-20 {
   padding: 100px 0 20px 0; }
@@ -1124,42 +1128,62 @@ img {
 
 /*nav css*/
 /*大小顏色*/
-.sidebar{
+.sidebar1{
   position: fixed;
-  width: 180px;
+  width: 170px;
   height: 100%;
   top: 180px;
-  left: 0;
+  left: 20px;
   z-index: 1;
 }
 
 /*選單間距*/
-.sidebar ul li{
+.sidebar1 ul li{
   margin: 25px 0;
 }
 
-.sidebar span {
-width:180px;
+.sidebar1 span {
+width:170px;
 height:70px;
+background-color:	#ECFFFF;
+margin-bottom: 20px;
+}
+.sidebar1 span beenselect{
+  width:170px;
+  height:70px;
+  background-color:	#007979;
 }
 
 /*選單文字顏色 位置*/
-.sidebar ul li a{
-  font-size: 16px;
+.sidebar1 ul li a{
+  font-size: 18px;
   color:#000000;
   padding:0 30px;
 }
 
 /*游標移過的顏色*/
-
-.sidebar .nav:hover{
-background:#b32774;
+.sidebar1 .nav:hover{
+background:#316399;
 }
 
-.sidebar ul li a:hover{
-  color: #fd5fe8;
-  margin-left:20px;
+.sidebar1 ul li a:hover{
+  color: #C4E1FF;
+  margin-left:5px;
   transition: 0.4s;
+}
+
+/*公佈欄CSS*/
+.billboard-text a label{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+  border: #000000;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 20px;
+  text-indent: 10px;
+  text-align: left;
+  line-height: 60px;
 }
 
 
