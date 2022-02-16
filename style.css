@@ -568,6 +568,18 @@ img {
   .publicf-bg-color{
     background-color:#D8D8EB;
   }
+  .publicf-tittle{
+    width:100%;
+    height: 60px;
+    font-size: 36px;
+    border: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    line-height:60px;
+    text-align: center;
+    background-color: #034c96;
+  }
   .publicf-2px-text-collor{
     width: 70px;
     height: 36px;
@@ -586,6 +598,18 @@ img {
     text-align: center;
     background-color:	#034c96;
   }
+  .publicf-4px-textarea-collor{
+    width: 96.5%;
+    height: 36px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height:36px;
+    text-align: center;
+    background-color:	#034c96;
+  }
+
   .opinion-bg-color{
     background-color:	#C4E1E1;
   }
@@ -1091,6 +1115,54 @@ img {
 .contact-form button,
 .post-a-comment-area button {
   background-color: #ffffff; }
+.button-align{  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+/*nav css*/
+/*大小顏色*/
+.sidebar{
+  position: fixed;
+  width: 180px;
+  height: 100%;
+  top: 180px;
+  left: 0;
+  z-index: 1;
+}
+
+/*選單間距*/
+.sidebar ul li{
+  margin: 25px 0;
+}
+
+.sidebar span {
+width:180px;
+height:70px;
+}
+
+/*選單文字顏色 位置*/
+.sidebar ul li a{
+  font-size: 16px;
+  color:#000000;
+  padding:0 30px;
+}
+
+/*游標移過的顏色*/
+
+.sidebar .nav:hover{
+background:#b32774;
+}
+
+.sidebar ul li a:hover{
+  color: #fd5fe8;
+  margin-left:20px;
+  transition: 0.4s;
+}
+
+
 
 /* Form CSS */
 .group {

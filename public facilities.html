@@ -113,7 +113,7 @@
                                     <li><a href="single-post.html"><i class="fas fa-comment-dots"></i> 訊息專區</a>
                                         <ul class="dropdown">
                                             <li><a href="single-post.html">公佈欄</a></li>
-                                            <li><a href="single-post.html">活動專區</a></li>
+                                            <li><a href="activity.html">活動專區</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="repair.html"><i class="fas fa-tools"></i> 我要報修</a></li>
@@ -154,28 +154,12 @@
                 <div class="col-12 col-md-10 col-lg-9">
                     <div class="contact-form">
                         <p></p><br>
-                        <h2>公設借閱</h2>
+                        <div class="publicf-tittle text-light">公設借閱</div>
                         <p></p><br>
                         <!-- Contact Form -->
                         <form action="#" method="post">
                             <div class="row">
 
-                                <div class="publicf-2px-text-collor text-light">
-                                    <label>姓名</label>
-                                </div>
-                                <div class="col-12 col-md-5 group">
-                                    <input type="text" name="name" id="name" required>
-                                    <span class="highlight"></span>
-                                    <span class="bar"></span>
-                                </div>
-                                <div class="publicf-2px-text-collor text-light">
-                                    <label>電話</label>
-                                </div>
-                                <div class="col-12 col-md-5 group">
-                                    <input type="text" name="number" id="phone-number" required>
-                                    <span class="highlight"></span>
-                                    <span class="bar"></span>
-                                </div>
                                 
                                 <div class="publicf-4px-text-collor text-light">
                                     <label>需借物品</label>
@@ -203,9 +187,21 @@
                                     <span class="highlight"></span>
                                     <span class="bar"></span>
                                 </div>
-                                <div class="col-12">
+                                <div class="publicf-4px-textarea-collor text-light">
+                                    <label>借閱說明</label>
+                                </div>    
+                                <div class="col-12 group">
+                                    <textarea  type="text" name="text" id="status" required></textarea>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                </div>
+
+
+                                <div class="col-12 button-align">
                                     <button type="submit" class="btn original-btn">送出</button>
-                                    <p></p><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <button type="reset" class="btn original-btn">重設</button>
+                                    <br><br><br><br>
                                 </div>
                             </div>
                         </form>
