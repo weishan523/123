@@ -16,6 +16,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="css/all.css">
 
 </head>
@@ -49,8 +50,8 @@
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
 
-        <!-- Top Header Area -->
-        <div class="top-header">
+          <!-- Top Header Area -->
+          <div class="top-header">
             <div class="rights h-100">
                 <div class="row h-100 align-items-center">
                     <!-- Breaking News Area -->
@@ -80,7 +81,7 @@
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
                     <!-- Classy Menu -->
-                    <nav class="classy-navbar justify-content-end">
+                    <nav class="classy-navbar justify-content-center">
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -110,6 +111,12 @@
                                     <li><a href="public facilities.html"><i class="fas fa-book-reader"></i> 公設借閱</a></li>
                                     <li><a href="contact.html"><i class="fas fa-utensils"></i> 餐飲目錄</a></li>
                                     <li><a href="opinion.html"><i class="fas fa-mail-bulk"></i> 意見信箱</a></li>
+                                   <!-- <i class="fas fa-search-dollar"></i><li><a href="single-post.html">收費標準</a>
+                                        <ul class="dropdown">
+                                            <li><a href="single-post.html">住宿費</a></li>
+                                            <li><a href="single-post.html">網路費</a></li>
+                                        </ul>
+                                    </li>-->
                                     <li><a href="single-post.html"><i class="fas fa-comment-dots"></i> 訊息專區</a>
                                         <ul class="dropdown">
                                             <li><a href="single-post.html">公佈欄</a></li>
@@ -129,75 +136,147 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/b1.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcumb-content text-center">
-                        <h2>about us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Breadcumb Area End ##### -->
+    <!-- ##### Google Map ##### -->
+    <!-- <div class="map-area">
+        <div id="googleMap" class="googleMap"></div>
+    </div> -->
 
-   
-<!-- 我要報修 -->
-<div class="blog-wrapper section-padding-50 clearfix">
-    <div class="repair-bg-color">
+
+    <!-- Menu List -->
+    <section id="menu-list" class="section-padding">
         <div class="container">
-            <div class="row justify-content-center">
-                <!-- Contact Form Area -->
-                <div class="col-12 col-md-10 col-lg-9">
-                    <div class="contact-form">
-                        <p></p><br>
-                        <div class="repair-tittle text-light">報修專區</div>
-                        <p></p><br>
-                        <!-- Contact Form -->
-                        <form action="#" method="post">
-                            <div class="row">
-                                <div class="repair-4px-text-collor text-light">
-                                    <label>報修地點</label>
-                                </div>
-                                <div class="col-10 group">
-                                    <input type="text" name="text" id="where1" required>
-                                    <span class="highlight"></span>
-                                    <span class="bar"></span>
-                                </div>
-                                <div class="repair-4px-text-collor text-light">
-                                    <label>維修項目</label>
-                                </div>
-                                <div class="col-10 group">
-                                    <input  type="text" name="text" id="item" required>
-                                    <span class="highlight"></span>
-                                    <span class="bar"></span>
-                                </div>
-                                <div class="repair-4px-textarea-collor text-light">
-                                    <label>狀況描述</label>
-                                </div>
-                                <div class="col-12 group">
-                                    <textarea  type="text" name="text" id="status" required></textarea>
-                                    <span class="highlight"></span>
-                                    <span class="bar"></span>
-                                </div>
-                                <div class="col-12 button-align">
-                                    <button type="submit" class="btn original-btn">送出</button>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <button type="reset" class="btn original-btn">重填</button>
-                                    <br><br><br><br>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">女宿學餐</h1>
+                    <!-- <p class="header-p">123</p> -->
                 </div>
+
+                <div class="col-md-12 text-center" id="menu-flters">
+                    <ul>
+                        <li><a class="filter" data-filter=".menu-restaurant" href="contact.html">全部</a></li>
+                        <li><a class="filter" data-filter=".breakfast" href="contact-1.html">活力早餐吧</a></li>
+                        <li><a class="filter active" data-filter=".noodle" href="contact-2.html">古早麵鋪</a></li>
+                        <li><a class="filter" data-filter=".rice" href="contact-3.html">津賀甲食堂</a></li>
+                    </ul>
+                </div>
+                <div class="menu-wapper"> 
+                 <h5>古早麵鋪</h5>
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">雞塊紅醬義大利麵</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$70</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">雞塊白醬義大利麵</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$70</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">德腸紅醬義大利麵</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$70</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">燻雞白醬義大利麵</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$70</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">黑胡椒鐵板麵</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$45</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">高麗菜水餃10顆</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$45</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">麻婆豆腐 意麵/冬粉/烏龍/雞絲</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$70</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">鍋燒 意麵/冬粉/烏龍/雞絲</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$60</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">鍋燒粥</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$60</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">魚丸湯</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$25</span>
+                        </span>
+                    </div>
+
+                    <div class="noodle menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img="">貢丸湯</a>
+                            <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                            <span class="menu-price">$25</span>
+                        </span>
+                    </div>
+
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img=""></a>
+                            <span style="left: 166px; right: 44px;"></span>
+                            <span class="menu-price"></span>
+                        </span>
+                    </div>
+                    
+                    <div class="breakfast menu-restaurant">
+                        <span class="clearfix">
+                            <a href="#" class="menu-title" data-meal-img=""></a>
+                            <span style="left: 166px; right: 44px;"></span>
+                            <span class="menu-price"></span>
+                        </span>
+                    </div>
+
+
+                   
+
+                </div>
+
             </div>
         </div>
-    </div>
-</div>
-    <!-- End of 我要報修 --> 
 
+    </section>
+
+
+    
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area text-center">
@@ -231,7 +310,7 @@
                                         <li><a href="#">公設借閱</a></li>
                                         <li><a href="#">餐飲目錄</a></li>
                                         <li><a href="#">意見信箱</a></li>
-                                        <li><a href="#">收費標準</a></li>
+                                        <li><a href="#">訊息專區</a></li>
                                         <li><a href="#">我要報修</a></li>
                                         <li><a href="#">我的帳號</a></li>
                                         <li><a href="#">住戶交流</a></li>
@@ -255,11 +334,13 @@
             </div>
         </div>
 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
     </footer>
+
+
     <!-- ##### Footer Area End ##### -->
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
@@ -272,6 +353,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <!-- Google Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="js/map-active.js"></script>
 
 </body>
 

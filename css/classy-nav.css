@@ -62,6 +62,7 @@ img {
       outline: none;
       font-size: 18px;
       background-color:#46A3FF;
+      width: 105%;
       font-weight: 400;
       color: #1abc9c; }
   .classy-nav-container.classy-sticky {
