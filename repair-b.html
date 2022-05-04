@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>高科大 第一校區 女生宿舍</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="public facilities-b.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="original-load"></div>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="subscribe-newsletter-area">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <div class="modal-body">
+                        <h5 class="title">Subscribe to my newsletter</h5>
+                        <form action="#" class="newsletterForm" method="post">
+                            <input type="email" name="email" id="subscribesForm2" placeholder="Your e-mail here">
+                            <button type="submit" class="btn original-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> 首頁</a></li>
+            <li>
+                <a href="#" class="feat-btn"><i class="fas fa-building"></i> 大樓介紹
+                    <span class="fas fa-caret-down first"></span>
+                </a>
+                <ul class="feat-show">
+                    <li><a href="#">大樓介紹</a></li>
+                    <li><a href="#">K書中心</a></li>
+                    <li><a href="#">交誼廳</a></li>
+                    <li><a href="#">運動場地</a></li>
+                    <li><a href="#">收費標準</a></li>
+                </ul>
+            </li>
+            <li><a href="public facilities-b.html"><i class="fas fa-book-reader"></i> 公設借閱</a></li>
+            <li><a href="#"><i class="fas fa-utensils"></i> 餐飲目錄</a></li>
+            <li><a href="opinion-b.html"><i class="fas fa-mail-bulk"></i> 意見信箱</a></li>
+            <li>
+                <a href="#" class="serv-btn"><i class="fas fa-comment-dots"></i> 訊息專區
+                    <span class="fas fa-caret-down second"></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a href="single-post-b.html">公佈欄</a></li>
+                    <li><a href="activity-b.html">活動專區</a></li>
+                </ul>
+            </li>
+            <li><a href="repair-b.html"><i class="fas fa-tools"></i> 我要報修</a></li>
+            <li><a href="#"><i class="fas fa-user"></i> 我的帳號</a></li>
+            <li><a href="resident communication list-b.html"><i class="fas fa-comments"></i> 住戶交流</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        $('.feat-btn').click(function(){
+            $('nav ul .feat-show').toggleClass("show");
+            $('nav ul .first').toggleClass("rotate");
+        });
+        $('.serv-btn').click(function(){
+            $('nav ul .serv-show').toggleClass("show1");
+            $('nav ul .second').toggleClass("rotate");
+        });
+        $('nav ul li').click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+
+
+    <!-- ##### Header Area End ##### -->
+
+
+    <!-- 公設借閱 -->
+    <div class="pf-b">
+        <table>
+            <thead>
+                <th>編號</th>
+                <th>使用者名稱</th>
+                <th>報修地點</th>
+                <th>維修項目</th>
+                <th>填寫時間</th>
+                <th>編輯</th>
+                <th><i class="fas fa-check-circle"></i></th>
+                <th><i class="fas fa-trash"></i></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fas fa-pencil-square-o"></i></td>
+                    <td><i class="fas fa-check-circle"></i></td>
+                    <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fas fa-pencil-square-o"></i></td>
+                    <td><i class="fas fa-check-circle"></i></td>
+                    <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fas fa-pencil-square-o"></i></td>
+                    <td><i class="fas fa-check-circle"></i></td>
+                    <td><i class="fas fa-trash"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- End of 公設借閱 -->
+
+
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

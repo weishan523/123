@@ -453,6 +453,9 @@ border-radius: 50%; }
 textarea{
 width:500px;
 }
+.new-post-title textarea{
+  
+}
 textarea::placeholder {
 color: rgb(175, 175, 175);
 }
