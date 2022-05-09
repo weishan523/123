@@ -153,3 +153,90 @@ nav ul li a span.rotate{
   img{
     width: 150px;
   }
+  
+
+  /* about-us-b */
+  .single-blog-area .single-blog-content1 h4 a {
+    display: inline-block;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 100px; }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-blog-area .single-blog-content1 h4 a {
+        margin-bottom: 20px; 
+        margin-left: 100px;} }
+
+  .single-blog-area .single-blog-content1 > p {
+    line-height: 2;
+    margin-bottom: 70px;
+    margin-left: 100px; }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-blog-area .single-blog-content1 > p {
+        margin-bottom: 30px;
+        margin-left: 100px; } }
+
+        .single-blog-area .single-blog-content1 .post-meta p {
+          font-size: 9px;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          letter-spacing: 3px;
+          display: inline-block;}
+          .single-blog-area .single-blog-content1 .post-meta p:first-of-type {
+            margin-right: 30px; }
+          .single-blog-area .single-blog-content1 .post-meta p a {
+            font-size: 9px;
+            text-transform: uppercase;
+            color: #000000;
+            letter-spacing: 3px; }
+        .single-blog-area.blog-style-2 .single-blog-content1 > p {
+          margin-bottom: 30px; }
+
+
+  /* 菜單 */
+h5{
+  margin-left: 120px;
+}
+
+.menu-restaurant{
+  width: 25%;
+  left: 120px;
+  right: 10px;
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+.menu-restaurant .menu-title{
+  float: left;
+  font-family: Montserrat,arial;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff5821;
+}
+.menu-restaurant .menu-line{
+  position: absolute;
+  bottom: 6px;
+  border-bottom: 1px dotted rgba(0,0,0,.3);
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+
+.menu-restaurant .menu-price {
+  color: #717f86; /* 價格顏色 */
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.menu-restaurant .menu-subtitle{
+  display: block;
+  float: left;
+  color: #b1b1b1;
+  font-size: 1.2rem;
+}
+.menu-restaurant span.clearfix{
+  position: relative;
+  display: block;
+}

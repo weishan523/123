@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
+
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
@@ -20,6 +20,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="public facilities-b.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="account.css">
     <link rel="stylesheet" href="css/all.css">
 
 </head>
@@ -34,12 +35,10 @@
 
     <!-- Subscribe Modal -->
     <div class="subscribe-newsletter-area">
-        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal"
-            aria-hidden="true">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <div class="modal-body">
                         <h5 class="title">Subscribe to my newsletter</h5>
                         <form action="#" class="newsletterForm" method="post">
@@ -53,7 +52,6 @@
     </div>
 
     <!-- ##### Header Area Start ##### -->
-
     <nav class="sidebar">
         <ul>
             <li><a href="#"><i class="fas fa-home"></i> 首頁</a></li>
@@ -128,63 +126,52 @@
     </script>
 
 
+
     <!-- ##### Header Area End ##### -->
 
 
-    <!-- 公設借閱 -->
-    <div class="pf-b">
-        <table>
-            <thead>
-                <th>編號</th>
-                <th>使用者名稱</th>
-                <th>需借物品</th>
-                <th>借用時間</th>
-                <th>歸還時間</th>
-                <th>填寫時間</th>
-                <th>詳細內容</th>
-                <th>核准</th>
-                <th><i class="fas fa-trash"></i></th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><i class="fas fa-pencil-square-o"></i></td>
-                    <td><i class="fas fa-check-circle"></i></td>
-                    <td><i class="fas fa-trash"></i></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><i class="fas fa-pencil-square-o"></i></td>
-                    <td><i class="fas fa-check-circle"></i></td>
-                    <td><i class="fas fa-trash"></i></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><i class="fas fa-pencil-square-o"></i></td>
-                    <td><i class="fas fa-check-circle"></i></td>
-                    <td><i class="fas fa-trash"></i></td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mt-5 pt-5">
+                <div class="row z-depth-3">
+                    <div class="a col-sm-4 rounded-left">
+                        <!-- <div class="card-block text-center">
+                            <img src="img/bg-img/b6.jpg">
+                            <input type="file" name="" id="file" accept=".jpg, .jpeg, .png"><br><br><!-- image/* -->
+                            <!--<label for="file">編輯圖片</label>
+                        </div> -->
+                    </div>
+                    <div class="b col-sm-8 rounded-right">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p style="float:left">性別</p>
+                                <input type="text" name="" placeholder="性別">
+                            </div>
+                            <div class="col-sm-12">
+                                <p style="float:left">電話號碼</p>
+                                <input type="text" name="" placeholder="電話號碼">
+                            </div>
+                            <div class="col-sm-12">
+                                <p style="float:left">使用者名稱</p>
+                                <input type="text" name="" placeholder="使用者名稱">
+                            </div>
+                            <div class="col-sm-12">
+                                <p style="float:left">Mail</p>
+                                <input type="email" name="" placeholder="Mail">
+                            </div>
+                            <div class="col-sm-12">
+                                <p style="float:left">密碼</p>
+                                <input type="text" name="" placeholder="密碼">
+                            </div>
+                            <button style="float: left; margin:10px 10px 20px 10px;">取消</button>
+                            <button style="float: right; margin:10px 10px 20px 10px;">儲存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- End of 公設借閱 -->
-
-
+    
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
