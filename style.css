@@ -552,9 +552,13 @@ img {
     left: auto;
     right: 7%; }
 
+  .ch-bg-color{
+    background-color: #d0d2ff;
+    margin-bottom: 20px;
+  }
+
   .activity-bg-color{
 
-    margin-bottom: 20px;
     background-color: 	#DFFFDF;
     }
   .blog-bg-color{
@@ -710,7 +714,8 @@ img {
   z-index: 1; }
   .single-blog-area .single-blog-thumbnail {
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+    margin-left: 50px;}
     .single-blog-area .single-blog-thumbnail img {
       width: 100%; }
     .single-blog-area .single-blog-thumbnail .post-date {
@@ -748,11 +753,20 @@ img {
     display: block; }
     .single-blog-area .single-blog-content .post-tag:hover, .single-blog-area .single-blog-content .post-tag:focus {
       color: #000000; }
+
+  .single-blog-content{
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  .single-blog-area .single-blog-content .line{
+    margin-left: 50px;
+  }
   .single-blog-area .single-blog-content h4 a {
     display: inline-block;
     color: #000000;
     font-size: 24px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-left: 50px; }
     .single-blog-area .single-blog-content h4 a:hover, .single-blog-area .single-blog-content h4 a:focus {
       color: #30336b; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -760,23 +774,29 @@ img {
         margin-bottom: 20px; } }
   .single-blog-area .single-blog-content > p {
     line-height: 2;
-    margin-bottom: 70px; }
+    color: #000000;
+    margin-bottom: 150px;
+    margin-left: 50px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-blog-area .single-blog-content > p {
-        margin-bottom: 30px; } }
+        margin-bottom: 150px;
+        margin-left: 50px; } }
   .single-blog-area .single-blog-content .post-meta p {
     font-size: 9px;
+    color: #000000;
     text-transform: uppercase;
     margin-bottom: 0;
     letter-spacing: 3px;
-    display: inline-block; }
+    display: inline-block; 
+    margin-left: 50px;  }
     .single-blog-area .single-blog-content .post-meta p:first-of-type {
       margin-right: 30px; }
     .single-blog-area .single-blog-content .post-meta p a {
       font-size: 9px;
       text-transform: uppercase;
       color: #000000;
-      letter-spacing: 3px; }
+      letter-spacing: 3px;
+       }
   .single-blog-area.blog-style-2 .single-blog-content > p {
     margin-bottom: 30px; }
 
@@ -991,7 +1011,7 @@ img {
     padding: 10px 15px 0;
     margin-bottom: 0;
     font-size: 48px;
-    background-color: #000000;
+    background-color: #0000003f;
     color: #ffffff;
     display: inline-block;
     text-transform: uppercase;
@@ -1238,6 +1258,8 @@ background:#316399;
   color: #000000;
   font-size: 35px;
   margin-bottom: 30px; 
+  margin-left: 50px;
+  margin-top: 0px;
 }
 .single-blog-area .single-blog-content .viewers{
   text-align: right;

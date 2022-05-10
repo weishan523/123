@@ -45,9 +45,9 @@ body{
 }
 /* 改顏色 */
 #menu-flters ul li a.active, #menu-flters ul li a:hover{
-    background:#FFB03B;
+    background:#768d9f;
     color:#fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #768d9f;
 }
 
 /* 菜單 */
@@ -62,7 +62,7 @@ body{
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ff5821;
+    color: #0968b1;
 }
 .menu-restaurant .menu-line{
     position: absolute;
