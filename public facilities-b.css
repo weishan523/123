@@ -112,7 +112,6 @@ nav ul li a span.rotate{
 
 .pf-b {
     width: 80%;
-    margin: 20px auto;
     margin-left: 260px;
   }
   table {
@@ -239,4 +238,34 @@ h5{
 .menu-restaurant span.clearfix{
   position: relative;
   display: block;
+}
+
+.index-text{
+  margin-left: 500px;
+}
+.index-text p{
+  font-size: 50px;
+}
+
+.contact-b-button button{
+  border:1px solid #a2a2a2;
+  background-color: white;
+  color: #3d3d3d;
+  height: 35px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin-top: 20px;
+  margin-left: 750px;
+}
+.contact-b-button button:hover{
+  transform: scale(1.1);
+}
+
+.pf-b .contact-b-plus a{
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  font-size: 30px;
 }
