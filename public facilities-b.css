@@ -147,6 +147,12 @@ nav ul li a span.rotate{
   table tbody tr:last-child td:last-child {
     border-radius: 0 0 5px 0;
   }
+  .pf-b .contact-b-plus a{
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    font-size: 30px;
+  }
 
 
   img{
@@ -155,7 +161,12 @@ nav ul li a span.rotate{
   
 
   /* about-us--b */
-  .single-blog-area .single-blog-content1 h4 a {
+
+  .new-post-title{
+    white-space: nowrap;
+  }
+
+  .single-blog-area .single-blog-content1 label1 {
     display: inline-block;
     color: #000000;
     font-size: 24px;
@@ -163,7 +174,7 @@ nav ul li a span.rotate{
     margin-left: 100px; }
 
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .single-blog-area .single-blog-content1 h4 a {
+      .single-blog-area .single-blog-content1 label1  {
         margin-bottom: 20px; 
         margin-left: 100px;} }
 
@@ -192,6 +203,52 @@ nav ul li a span.rotate{
             letter-spacing: 3px; }
         .single-blog-area.blog-style-2 .single-blog-content1 > p {
           margin-bottom: 30px; }
+
+.single-blog-content1 .new-post-content textarea{
+  margin-left: 120px;
+}
+
+
+.single-catagory-area1 {
+  position: relative;
+  z-index: 1; 
+  margin-left: 130px;}
+
+.single-catagory-area1 .dormitory-img{
+  width: 500px;
+}
+
+.single-button{
+  margin-left: 400px;
+}
+.single-button button{
+  border:1px solid #a2a2a2;
+  background-color: white;
+  color: #3d3d3d;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+input[type="file"]{
+  display: none;
+}
+label{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: white;
+    color: #000000;
+    border: 1px solid #a2a2a2;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+label:hover{
+    background-color: #a2a2a2;
+    color: black;
+}
 
 
   /* 菜單 */
@@ -263,9 +320,271 @@ h5{
   transform: scale(1.1);
 }
 
-.pf-b .contact-b-plus a{
-  position: absolute;
-  right: 40px;
-  top: 5px;
-  font-size: 30px;
+
+/* 公設借閱 */
+
+.publicf-tittle1{
+  width:100%;
+  height: 60px;
+  font-size: 36px;
+  border: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  line-height:60px;
+  text-align: center;
+  background-color: #a2a2a2;
+}
+.publicf-2px-text-collor1{
+  width: 70px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.publicf-4px-text-collor1{
+  width: 140px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.publicf-4px-text-collor1 p{
+  margin-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.publicf-4px-textarea-collor1{
+  width: 96.5%;
+  height: 36px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.publicf-4px-textarea-collor1 p{
+  margin-top: 6px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+/* 意見信箱 */
+.opinion-tittle1{
+  width:100%;
+  height: 60px;
+  font-size: 36px;
+  border: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  line-height:60px;
+  text-align: center;
+  background-color: #a2a2a2;
+}
+.opinion-2px-text-collor1{
+  width: 70px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.opinion-2px-text-collor1 p{
+  margin-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.opinion-4px-text-collor1{
+  width: 140px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.opinion-4px-text-collor1 p{
+  margin-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.opinion-4px-textarea-collor1{
+  width: 96.5%;
+  height: 36px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:	#a2a2a2;
+}
+.opinion-4px-textarea-collor1 p{
+  margin-top: 6px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/* 我要報修 */
+
+.repair-tittle1{
+  width:100%;
+  height: 60px;
+  font-size: 36px;
+  border: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  line-height:60px;
+  text-align: center;
+  background-color: #a2a2a2;
+}
+.repair-2px-text-collor1{
+  width: 70px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:		#a2a2a2;
+}
+.repair-2px-text-collor1 p{
+  margin-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.repair-4px-text-collor1{
+  width: 140px;
+  height: 36px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:		#a2a2a2;
+}
+.repair-4px-text-collor1 p{
+  margin-top: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.repair-4px-textarea-collor1{
+  width: 96.5%;
+  height: 36px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height:36px;
+  text-align: center;
+  background-color:		#a2a2a2;
+}
+.repair-4px-textarea-collor1 p{
+  margin-top: 6px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/*公佈欄CSS*/
+.billboard-public a label{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: transparent;
+  border-style: solid;
+  background-color: #fad2d2;
+  font-size: 20px;
+  text-indent: 10px;
+  text-align: left;
+  line-height: 60px;
+}
+
+
+/* 最新消息 */
+
+.single-blog-area2 .single-blog-content .new-post-title p a {
+  display: inline-block;
+  color: #000000;
+  font-size: 35px;
+  margin-bottom: 30px; 
+  margin-left: 50px;
+  margin-top: 0px;
+}
+.single-blog-area2 .single-blog-content .viewers{
+  text-align: right;
+}
+
+.single-blog-area2 .single-blog-content label1 {
+  display: inline-block;
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-left: 100px; }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog-area .single-blog-content label1  {
+      margin-bottom: 20px; 
+      margin-left: 100px;} }
+
+.single-blog-area2 .single-blog-content > p {
+  line-height: 2;
+  margin-bottom: 70px;
+  margin-left: 100px; }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-blog-area2 .single-blog-content > p {
+      margin-bottom: 30px;
+      margin-left: 100px; } }
+
+      .single-blog-area2 .single-blog-content .post-meta p {
+        font-size: 9px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        letter-spacing: 3px;
+        display: inline-block;}
+        .single-blog-area2 .single-blog-content .post-meta p:first-of-type {
+          margin-right: 30px; }
+        .single-blog-area2 .single-blog-content .post-meta p a {
+          font-size: 9px;
+          text-transform: uppercase;
+          color: #000000;
+          letter-spacing: 3px; }
+      .single-blog-area2.blog-style-2 .single-blog-content > p {
+        margin-bottom: 30px; }
+
+.single-blog-area2 .single-blog-content .new-post-content textarea{
+  margin-left: 120px;
+}
+
+.single-catagory-area1 {
+position: relative;
+z-index: 1; 
+margin-left: 130px;}
+
+.single-catagory-area2 .dormitory-img{
+width: 500px;
+}
+
+.single-blog-area2 .single-button{
+  margin-left: 400px;
+}
+.single-blog-area2 .single-button button{
+  border:1px solid #a2a2a2;
+  background-color: white;
+  color: #3d3d3d;
+  height: 30px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
